@@ -6,125 +6,190 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Dr. Siva Ram Krishna Vadali</title>
+<title>Research Portfolio | Dr. Siva Ram Krishna Vadali</title>
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
 
-    font-family:Segoe UI, Arial, sans-serif;
-    background:#f4f7fb;
-    color:#222;
-    line-height:1.8;
+font-family:Segoe UI,Arial,sans-serif;
+background:#f5f7fb;
+color:#333;
+line-height:1.8;
 
 }
 
-header{
+.hero{
 
-    background:#0b2e59;
-    color:white;
-    text-align:center;
-    padding:70px 20px;
+height:100vh;
 
-}
+background:url("images/hero.jpg") center center/cover no-repeat;
 
-header h1{
+display:flex;
 
-    font-size:46px;
-    margin-bottom:10px;
+justify-content:center;
 
-}
+align-items:center;
 
-header h2{
+text-align:center;
 
-    font-weight:400;
-    margin-bottom:20px;
+position:relative;
 
 }
 
-.tagline{
+.hero::before{
 
-    font-size:22px;
-    color:#dce8ff;
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:0;
+
+right:0;
+
+bottom:0;
+
+background:rgba(8,25,55,0.60);
+
+}
+
+.hero-content{
+
+position:relative;
+
+z-index:2;
+
+color:white;
+
+max-width:900px;
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:56px;
+
+margin-bottom:20px;
+
+}
+
+.hero h2{
+
+font-size:30px;
+
+font-weight:400;
+
+margin-bottom:25px;
+
+}
+
+.hero p{
+
+font-size:24px;
+
+}
+
+.button{
+
+display:inline-block;
+
+margin-top:40px;
+
+padding:15px 35px;
+
+background:#1976d2;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:40px;
+
+font-size:20px;
 
 }
 
 .container{
 
-    max-width:1100px;
-    margin:auto;
-    padding:50px 25px;
+max-width:1200px;
+
+margin:auto;
+
+padding:60px 30px;
 
 }
 
-.section{
+.card{
 
-    background:white;
-    padding:35px;
-    margin-bottom:35px;
-    border-radius:10px;
-    box-shadow:0px 0px 15px rgba(0,0,0,0.10);
+background:white;
 
-}
+padding:35px;
 
-.section h2{
+margin-bottom:35px;
 
-    color:#0b2e59;
-    margin-bottom:20px;
-    border-bottom:3px solid #1976d2;
-    padding-bottom:10px;
+border-radius:12px;
+
+box-shadow:0px 0px 18px rgba(0,0,0,0.10);
 
 }
 
-.section p{
+.card h2{
 
-    text-align:justify;
-    margin-bottom:15px;
+color:#0b2e59;
 
-}
-
-ul{
-
-    margin-left:25px;
+margin-bottom:20px;
 
 }
 
-li{
+.grid{
 
-    margin-bottom:8px;
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+margin-top:25px;
 
 }
 
-.quote{
+.box{
 
-    font-size:22px;
-    text-align:center;
-    font-style:italic;
-    color:#0b2e59;
-    padding:25px;
+background:#eef4fb;
+
+padding:25px;
+
+border-radius:10px;
+
+}
+
+.box h3{
+
+color:#0b2e59;
+
+margin-bottom:15px;
 
 }
 
 footer{
 
-    background:#0b2e59;
-    color:white;
-    text-align:center;
-    padding:25px;
+background:#0b2e59;
 
-}
+color:white;
 
-.email{
+text-align:center;
 
-    color:#0b2e59;
-    font-weight:bold;
-    font-size:18px;
+padding:25px;
 
 }
 
@@ -134,207 +199,213 @@ footer{
 
 <body>
 
-<header>
+<section class="hero">
+
+<div class="hero-content">
 
 <h1>
 
-Dr. Siva Ram Krishna Vadali
+Research Portfolio
 
 </h1>
 
 <h2>
 
-Scientist–G
-
-<br>
-
-CSIR–Central Mechanical Engineering Research Institute
-
-<br>
-
-Ministry of Science & Technology
-
-Government of India
+Dr. Siva Ram Krishna Vadali
 
 </h2>
 
-<div class="tagline">
+<p>
 
-Signal Processing for Information Extraction
+Statistical Signal Processing for Information Extraction
+
+</p>
+
+<a class="button" href="#research">
+
+Explore My Research
+
+</a>
 
 </div>
 
-</header>
+</section>
 
 <div class="container">
 
-<div class="section">
+<div class="card">
 
 <h2>
 
-Welcome
+Research Philosophy
 
 </h2>
 
 <p>
 
-Thank you for taking the time to visit my personal academic website.
-
-</p>
-
-<p>
-
-This website is currently being redesigned to better present my research journey, ongoing projects and professional activities in a more comprehensive and engaging manner. The objective is to create a platform that not only summarizes my professional accomplishments but also communicates the philosophy that has guided my research over the past two decades.
-
-</p>
-
-<p>
-
-My research broadly lies at the intersection of <b>Mathematical Statistics, Statistical Signal Processing, Communication Systems, Intelligent Sensing and Autonomous Engineering Systems</b>, with a long-term objective of translating rigorous mathematical concepts into practical technologies for strategic, industrial and societal applications.
-
-</p>
-
-<p>
-
-The completed website will provide detailed information on research activities, sponsored projects, publications, patents, technology transfers, academic engagements and opportunities for research collaboration.
-
-</p>
-
-<p>
-
-Until then, I sincerely appreciate your visit and your patience.
+My research focuses on bridging mathematical theory with practical engineering through statistical signal processing, intelligent sensing and autonomous systems. Rather than pursuing mathematical optimality alone, the emphasis is on developing deployable technologies capable of solving complex real-world problems in strategic, industrial and societal environments.
 
 </p>
 
 </div>
 
-<div class="section">
+<div class="card" id="research">
 
 <h2>
 
-Research Areas
+Research Contributions
 
 </h2>
 
-<ul>
+<div class="grid">
 
-<li>Mathematical Statistics</li>
+<div class="box">
 
-<li>Detection and Estimation Theory</li>
+<h3>Mathematical Foundations</h3>
 
-<li>Statistical Signal Processing</li>
+<p>
 
-<li>Communication Systems</li>
+Detection Theory<br>
 
-<li>Information Extraction</li>
+Estimation Theory<br>
 
-<li>Intelligent Sensing</li>
+Statistical Inference
 
-<li>Artificial Intelligence</li>
-
-<li>Autonomous Underwater Vehicles</li>
-
-<li>Underwater Homing & Docking</li>
-
-<li>Marine Robotics</li>
-
-<li>Buried Seismic Sensing</li>
-
-<li>Sensor Fusion</li>
-
-</ul>
+</p>
 
 </div>
 
-<div class="section">
+<div class="box">
+
+<h3>Signal Processing</h3>
+
+<p>
+
+Weak Signal Detection<br>
+
+Communication Systems<br>
+
+Information Extraction
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Intelligent Sensing</h3>
+
+<p>
+
+Buried Seismic Sensing<br>
+
+Sensor Fusion<br>
+
+Embedded Instrumentation
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Autonomous Systems</h3>
+
+<p>
+
+AUV Navigation<br>
+
+Underwater Docking<br>
+
+Marine Robotics
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
 
 <h2>
 
-Research Collaboration
+Featured Research
 
 </h2>
 
+<div class="grid">
+
+<div class="box">
+
+<h3>Autonomous Underwater Vehicles</h3>
+
 <p>
 
-I welcome interactions with researchers, faculty members, students, government organizations and industry professionals interested in collaborative research, sponsored projects, technology development or academic discussions.
-
-</p>
-
-<p>
-
-Prospective students interested in internships, master's dissertations, doctoral research or project collaborations are encouraged to contact me by email with a brief curriculum vitae and statement of research interest.
+Research on intelligent underwater navigation, homing and docking technologies.
 
 </p>
 
 </div>
 
-<div class="section">
+<div class="box">
+
+<h3>Buried Seismic Sensing</h3>
+
+<p>
+
+Statistical signal processing methodologies for intelligent perimeter surveillance.
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Detection & Estimation</h3>
+
+<p>
+
+Mathematical approaches for reliable information extraction under adverse conditions.
+
+</p>
+
+</div>
+
+<div class="box">
+
+<h3>Artificial Intelligence</h3>
+
+<p>
+
+Machine learning and embedded AI for engineering systems.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
 
 <h2>
 
-Contact
+Quick Links
 
 </h2>
 
-<p class="email">
-
-Official Email
-
-<br><br>
-
-srkvadali.cmeri@csir.res.in
-
-</p>
-
-<br>
-
-<p class="email">
-
-Personal Email
-
-<br><br>
-
-srkvadali@gmail.com
-
-</p>
-
-<br>
-
 <p>
 
-<b>Office Address</b>
+📄 Curriculum Vitae &nbsp;&nbsp;&nbsp;
 
-<br><br>
+📚 Publications &nbsp;&nbsp;&nbsp;
 
-Underwater Robotics & Autonomous Systems Group (URASG)
-
-<br>
-
-CSIR–Central Mechanical Engineering Research Institute (CSIR–CMERI)
-
-<br>
-
-Mahatma Gandhi Avenue
-
-<br>
-
-Durgapur – 713209
-
-<br>
-
-West Bengal
-
-<br>
-
-India
+📧 Contact
 
 </p>
-
-</div>
-
-<div class="quote">
-
-"Meaningful engineering begins with meaningful scientific inquiry. The most impactful technologies emerge when mathematical rigor is combined with practical engineering insight."
 
 </div>
 
