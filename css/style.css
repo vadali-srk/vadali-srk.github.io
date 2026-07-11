@@ -1,1 +1,8 @@
-body{font-family:Segoe UI;margin:0;background:#f4f7fb}nav{background:#0b2e59;padding:15px}nav a{color:#fff;margin-right:12px;text-decoration:none}.hero{background:#0b2e59;color:#fff;padding:60px;text-align:center}.container{max-width:900px;margin:auto;padding:30px}footer{background:#0b2e59;color:#fff;padding:20px;text-align:center;margin-top:40px}
+body{margin:0;font-family:Segoe UI,Arial;background:#f5f7fb;color:#222}
+nav{background:#0b2e59;padding:16px;position:sticky;top:0}
+nav a{color:#fff;text-decoration:none;margin-right:18px;font-weight:600}
+.hero{padding:80px 20px;background:linear-gradient(135deg,#0b2e59,#1976d2);color:#fff;text-align:center}
+.container{max-width:1100px;margin:auto;padding:40px}
+.card{background:#fff;padding:24px;margin:20px 0;border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.12)}
+footer{background:#0b2e59;color:#fff;text-align:center;padding:18px;margin-top:40px}
+h1,h2{color:#0b2e59}.hero h1,.hero h2{color:#fff}
